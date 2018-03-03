@@ -1,0 +1,307 @@
+
+/*seg_mobile_include.css*/
+
+/*s-fonts-desktop_light.css*/
+@font-face {
+	font-family: 'Nationale DemiBold';
+	src: url('/css/fonts/Nationale-DemiBold.eot');
+	src: url('/css/fonts/Nationale-DemiBold.eot?#iefix') format('embedded-opentype'),
+		 url('/css/fonts/Nationale-DemiBold.woff') format('woff'),
+		 url('/css/fonts/Nationale-DemiBold.ttf') format('truetype'),
+		 url('/css/fonts/Nationale-DemiBold.svg#f474d1189e72373340fe5bad92cb7394') format('svg');
+	font-weight: normal;
+	font-style: 400;
+}
+@font-face {
+	font-family: 'Nationale Regular';
+	src: url('/css/fonts/Nationale-Regular.eot');
+	src: url('/css/fonts/Nationale-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('/css/fonts/Nationale-Regular.woff') format('woff'),
+		 url('/css/fonts/Nationale-Regular.ttf') format('truetype'),
+		 url('/css/fonts/Nationale-Regular.svg#2322dcd60970b145ddd0fffb7e508234') format('svg');
+	font-weight: normal;
+	font-style: 400;
+}
+
+
+/*s-page.css*/
+* {font-family: "Nationale Regular", Arial, Verdana, sans-serif; color: #000000; font-size: 13px; line-height: 1em;}
+html {height: 100%;}
+body {background: #ffffff; margin: 0; height: 100%;}
+h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt {padding: 0; margin: 0; color: #000000;}
+ul {list-style: none;}
+a {text-decoration: none; cursor: pointer;}
+a:hover {text-decoration: underline;}
+a, span {font-size: inherit; font-family: inherit; color: inherit; line-height: inherit;}
+img {border: 0; display: block;}
+form, fieldset, label, input, select, textarea {padding: 0; margin: 0; font-weight: normal;}
+fieldset {border: none;}
+input, select, textarea {font-size: 14px;}
+input, textarea {outline: none;}
+h1 {font-size: 2em; padding: 0 0 10px; font-family: "Nationale DemiBold", Arial, Verdana, sans-serif;}
+h2 {font-size: 1.2em; line-height: 1.2em; padding: 0 0 10px; font-family: "Nationale DemiBold", Arial, Verdana, sans-serif;}
+h3 {font-size: 1.1em; line-height: 1em; padding: 0 0 10px; font-family: "Nationale DemiBold", Arial, Verdana, sans-serif;}
+p {line-height: 1.3em; padding: 0 0 10px; font-family: "Nationale Regular", Arial, Verdana, sans-serif;} 
+dd, 
+dt {font-size: 0.77em; font-weight: bold;}
+#page {position: relative;}
+#footer p.typedin {padding:20px 0 20px 10px; font-family: "Nationale DemiBold", Arial, Verdana, sans-serif;} 
+#footer p.photos {font-size: 9px; color:#999999; padding:10px;} 
+
+
+/*s-header.css*/
+#header .servicenavigation .navigation {display: block; font-size: 0;}
+#header ul.servicenavigation li a {position: absolute; top:10px; right:10px; width:40px; height:30px; background: url(/img/mobile/gx_menu_icon.png) no-repeat center center; font-size: 0; text-indent:-9999px;}
+
+
+/*s-navigation.css*/
+#navigation {margin: 60px 0 10px;}
+#navigation ul li {display: block; border-top: 1px solid #ededed;}
+#navigation > ul li {padding:20px 0 20px 10px; text-transform: uppercase; font-style: 16px;
+	font-family: "Nationale Demibold", Arial, Verdana, sans-serif;
+}
+#navigation ul li.etypes,
+#navigation ul li.daily {padding-bottom:0;} 
+#navigation ul > li h3 {padding-bottom:20px;}
+#navigation ul li .submenu p {display: none;}
+#navigation ul li .submenu ul li {padding:20px 0 20px 20px; margin-left:-10px; font-style: 14px; background-color: #f5f5f5; text-transform:none;
+	font-family: "Nationale Regular", Arial, Verdana, sans-serif;
+}
+#navigation ul li.etypes ul li {color: #096310;}
+#navigation ul li.daily ul li {color: #00207c;}
+
+
+/*s-content.css*/
+#footer .sharing {display: none;}
+#content {padding-top:50px;}
+#content .scene {margin:0 10px;}
+#content .scene img {margin-bottom: 10px; width: 100%;}
+#content .scene.etypes * {color: #184c1b;}
+#content .scene.daily * {color: #00207c;}
+
+
+/*s-front.css*/
+#content .scene.front > h1 {display: none;}
+#content .scene.front > h2 {padding:30px 0;}
+#content .scene.front ul.news li { padding-bottom:40px;}
+#content .scene.front ul.news li dl dd {display: inline-block; vertical-align: top; padding-bottom: 10px; text-transform: uppercase;
+	font-family: "Nationale DemiBold", Arial, Verdana, sans-serif;
+}
+#content .scene.front ul.news li dl dt,
+#content .scene.front ul.news li dl dd.type,
+#content .scene.front ul.news li dl dd.published_at {display: none;}
+
+/*s-article.css*/
+#content .scene.article .item .body p a {text-decoration: underline;}
+#content .scene.article .item dl {padding: 10px 0;}
+#content .scene.article .item dl dt {display: none;}
+#content .scene.article .item dl dd {display: inline-block; vertical-align: top; text-transform: uppercase;
+	font-family: "Nationale DemiBold", Arial, Verdana, sans-serif;
+}
+
+/*s-contact.css*/
+#content .scene.contact a {text-decoration: underline;}
+#content .scene.contact .vcard.company {padding: 60px 0 20px 0;}
+#content .scene.contact .vcard.company .name {text-transform: uppercase;}
+#content .scene.contact .vcard.company .adr {font-size: 0;}
+#content .scene.contact .vcard.company .adr .locality {padding: 0 0 0 5px;}
+#content .scene.contact .vcard.company .adr .country-name {display: none;}
+#content .scene.contact .vcard.company * {line-height: 1.33em;
+	font-family: "Nationale DemiBold", Arial, Verdana, sans-serif;
+}
+#content .scene.contact .vcard.company div.name,
+#content .scene.contact .vcard.company div.adr div {font-size: 1.85rem;}
+#content .scene.contact .partners ul.actions,
+#content .scene.contact .etypes,
+#content .scene.contact .daily,
+#content .scene.contact .group,
+#content .scene.contact .playtype,
+#content .scene.contact #companyinfo {display: none;}
+#content .scene.contact .partners h2,
+#content .scene.contact .apply h2 {padding: 36px 0 10px; font-size: 1.2em;}
+#content .scene.contact .partners  ul li {width:100%;padding: 0 0 20px 0; display: inline-block; vertical-align: top;}
+#content .scene.contact li.vcard.person .affiliation {display: none;}
+#content .scene.contact li.vcard.person div {color: #646464; line-height: 1.4em;}
+#content .scene.contact li.vcard.person div.name {color: #222222;
+	font-family: "Nationale DemiBold", Arial, Verdana, sans-serif;
+}
+#content .scene.contact #companyinfo {padding-bottom: 20px; font-size: 13px;}
+#content .scene.contact #companyinfo dl {overflow: hidden; }
+#content .scene.contact #companyinfo dl * {font-size: 13px; text-transform: none; line-height: 1.33em; color: #222222; font-weight: normal;
+	font-family: "Nationale Regular", Arial, Verdana, sans-serif;
+}
+#content .scene.contact #companyinfo dl dt,
+#content .scene.contact #companyinfo dl dd {float: left; clear: both;}
+#content .scene.contact #companyinfo dl dt { font-family: "Nationale DemiBold", Arial, Verdana, sans-serif;}
+#content .scene.contact #companyinfo dl dd {padding-bottom: 18px;}
+
+
+/*s-news.css*/
+#content .scene.news {}
+#content .scene.news h1 {}
+#content .scene.news h2 {margin-bottom:40px;}
+#content .scene.news ul.news {font-size: 0; }
+#content .scene.news ul.news li {display: inline-block; vertical-align: top; width: 100%; padding-bottom:40px;}
+#content .scene.news ul.news li h2 {margin:10px 20px 0px 0;}
+#content .scene.news ul.news li div.article {margin-right:20px;}
+#content .scene.news ul.news li div.article p {}
+#content .scene.news ul.news li dl {margin-right:20px;}
+#content .scene.news ul.news li dl dd {display: inline-block; vertical-align: top; margin-top: 4px; text-transform: uppercase;}
+#content .scene.news ul.news li dl dt,
+#content .scene.news ul.news li dl dd.type,
+#content .scene.news ul.news li dl dd.published_at,
+#content .scene.news ul.news li .tags {display: none;}
+
+
+/*s-about.css*/
+#content .scene.about > h1 {padding-top:20px; z-index: 3; position: relative;}
+#content .scene.about .about {z-index: 1;}
+#content .scene.about a {text-decoration: underline;}
+#content .scene.about .vcard.company {padding: 60px 0 20px 0;}
+#content .scene.about .vcard.company .name {text-transform: uppercase;}
+#content .scene.about .vcard.company .adr {font-size: 0;}
+#content .scene.about .vcard.company .adr .locality {padding: 0 0 0 5px;}
+#content .scene.about .vcard.company .adr .country-name {display: none;}
+#content .scene.about .vcard.company * {line-height: 1.33em;
+	font-family: "Nationale DemiBold", Arial, Verdana, sans-serif;
+}
+#content .scene.about .vcard.company div.name,
+#content .scene.about .vcard.company div.adr div {font-size: 1.85rem;}
+#content .scene.about .about,
+#content .scene.about .theway,
+#content .scene.about .group,
+#content .scene.about #companyinfo { padding-bottom: 40px;}
+#content .scene.about .about ul li,
+#content .scene.about .theway ul li,
+#content .scene.about .group ul li,
+#content .scene.about .playtype ul li {width:100%; padding: 0 0 20px 0; display: inline-block; vertical-align: top;}
+#content .scene.about .about > h3 {padding-top:40px; text-transform: uppercase;}
+#content .scene.about .about > h3,
+#content .scene.about .about > p {font-size: 1.385rem; line-height: 1.7rem;}
+#content .scene.about .theway h2 {text-transform: uppercase; padding-bottom: 16px}
+#content .scene.about .theway h3 {padding:0;}
+#content .scene.about .theway h3,
+#content .scene.about .theway p {font-size: 1.385rem; line-height: 1.7rem;}
+#content .scene.about .group h2 {line-height: 3.85rem;}
+#content .scene.about .group p {font-size: 1.385rem; line-height: 1.7rem;}
+#content .scene.about #companyinfo h2 {text-transform: uppercase;}
+#content .scene.about #companyinfo {padding-bottom: 20px; font-size: 13px;}
+#content .scene.about #companyinfo dl {overflow: hidden; }
+#content .scene.about #companyinfo dl * {font-size: 13px; text-transform: none; line-height: 1.33em; font-weight: normal;
+	font-family: "Nationale Regular", Arial, Verdana, sans-serif;
+}
+#content .scene.about #companyinfo dl dt,
+#content .scene.about #companyinfo dl dd {float: left; clear: both;}
+#content .scene.about #companyinfo dl dt { font-family: "Nationale DemiBold", Arial, Verdana, sans-serif;}
+#content .scene.about #companyinfo dl dd {padding-bottom: 18px;}
+#content .scene.about .deco {opacity: 0; position: relative;}
+#content .scene.about .deco p {font-size:9px; line-height: 10px; color:#999999;}
+#content .scene.about .deco1 {margin: -30px 0 20px 0;}
+
+
+/*s-competences.css*/
+#content .scene.competences h2.main br {display: none;}
+#content .scene.competences h3 {padding-top:20px;}
+#content .scene.competences ul {padding:20px 0;}
+#content .scene.competences ul li p {line-height: 1.7rem;}
+
+
+/*s-aboutdaily.css*/
+#content .scene.aboutdaily h1 {font-size: 3.85rem;}
+#content .scene.aboutdaily h2 {padding-bottom:60px;}
+#content .scene.aboutdaily h2 br {display: none;}
+#content .scene.aboutdaily .why,
+#content .scene.aboutdaily .what,
+#content .scene.aboutdaily .how,
+#content .scene.aboutdaily .who {padding-bottom: 40px;}
+#content .scene.aboutdaily .why h3,
+#content .scene.aboutdaily .what h3,
+#content .scene.aboutdaily .how h3,
+#content .scene.aboutdaily .who h3 {padding-bottom: 20px; text-transform: uppercase; font-size: 1.85rem; line-height:1.7rem;}
+#content .scene.aboutdaily .why h4,
+#content .scene.aboutdaily .what h4,
+#content .scene.aboutdaily .how h4,
+#content .scene.aboutdaily .who h4 {padding-bottom: 10px; font-size: 1.385rem; line-height:1.7rem;}
+#content .scene.aboutdaily .contact {padding-bottom: 40px;}
+#content .scene.aboutdaily .contact .email a {display:block; padding-bottom: 20px; text-decoration: underline;}
+#content .scene.aboutdaily .contact p,
+#content .scene.aboutdaily .contact .email,
+#content .scene.aboutdaily .contact .tel {font-size: 1.385rem; line-height:1.7rem;
+	font-family: "Nationale DemiBold", Arial, Verdana, sans-serif;
+}
+#content .scene.aboutdaily .contact p br {display: none;}
+#content .scene.aboutdaily .synergy h3 {font-size: 1.85rem; line-height:2.15rem;}
+#content .scene.aboutdaily .synergy > p {font-size: 1.385rem; line-height:1.7rem; padding-bottom: 20px;
+	font-family: "Nationale DemiBold", Arial, Verdana, sans-serif;
+}
+#content .scene.aboutdaily .synergy h4 {padding: 20px 0 10px; font-size: 1.385rem; line-height:1.7rem;}
+
+
+/*s-services.css*/
+#content .scene.services h1 {font-size: 3.85rem;}
+#content .scene.services h2 {padding-bottom:60px;}
+#content .scene.services .focus {}
+#content .scene.services .focus h3 {padding-bottom: 20px; font-size: 1.85rem; text-transform: uppercase;}
+#content .scene.services .focus .magazines,
+#content .scene.services .focus .corporate,
+#content .scene.services .focus .designguides,
+#content .scene.services .focus .reports,
+#content .scene.services .focus .campaigns {padding-bottom: 40px;}
+#content .scene.services .focus .magazines h4,
+#content .scene.services .focus .corporate h4,
+#content .scene.services .focus .designguides h4,
+#content .scene.services .focus .reports h4,
+#content .scene.services .focus .campaigns h4 {padding-bottom: 10px; font-size: 1.385rem; line-height:1.7rem;}
+#content .scene.services .servicelist {}
+#content .scene.services .servicelist h3 {padding-bottom: 20px; font-size: 1.85rem; line-height:2.15rem; text-transform: uppercase;}
+#content .scene.services .servicelist ul {}
+#content .scene.services .servicelist ul li {}
+#content .scene.services .servicelist ul li h4 {padding-bottom: 10px; font-size: 1.385rem; line-height:1.7rem;}
+#content .scene.services .servicelist ul ul {padding-bottom:40px;}
+#content .scene.services .servicelist ul ul li {padding:3px 0;}
+#content .scene.services .servicelist ul ul li br {display: none;}
+
+
+/*s-playtype.css*/
+#content .scene.playtype {background: url(/img/desktop/playtype_1.jpg) no-repeat center 50px; background-size: 100% auto;}
+#content .scene.playtype h1 {position:relative; z-index: 1; font-size: 3.85rem; text-transform: uppercase;}
+#content .scene.playtype ul {font-size: 0; padding:150px 0 20px 0;}
+#content .scene.playtype ul li {display: inline-block; vertical-align:top; width: 50%; text-align: center; padding:15px 0;}
+#content .scene.playtype ul li.fonts {background: #ffffff;}
+#content .scene.playtype ul li.fonts:active {background-color: rgba(0, 0, 0, 0.05);}
+#content .scene.playtype ul li.fonts * {color: #000000; text-transform: uppercase;}
+#content .scene.playtype ul li .table {display: table; height: 100%; width: 100%;}
+#content .scene.playtype ul li .row {display: table-cell; vertical-align: middle;}
+#content .scene.playtype ul li span {display: block;}
+#content .scene.playtype ul li span.buy {font-size: 1.2rem; line-height: 1.4em; padding: 0 0 10px;
+	font-family: "Nationale DemiBold", Arial, Verdana, sans-serif;
+}
+#content .scene.playtype li span.location {font-size: 11px;}
+#content .scene.playtype li.products {background: #000000;}
+#content .scene.playtype li.products:active {background-color: rgba(0, 0, 0, 0.8);}
+#content .scene.playtype li.products * {color: #ffffff; text-transform: uppercase;}
+#content .scene.playtype .store {padding-top:20px;}
+#content .scene.playtype .deco {opacity: 0; padding-top:20px;}
+#content .scene.playtype .deco p {font-size:9px; line-height: 10px; color:#999999;}
+#content .scene.playtype .deco1 {position:absolute; z-index: 1; margin-right:10px;}
+
+
+/*s-typography-mobile.css*/
+* {font-size: 13px;}
+h1 {font-size: 2rem; font-weight: normal;}
+h2 {font-size: 1.385rem; font-weight: normal;}
+h3 {font-size: 13px; font-weight: normal;}
+h4 {font-size: 13px;}
+p {font-size: 13px; line-height: 18px;}
+dd, dt {font-size: 10px; font-weight: normal;}
+#content .scene.front > h1 {font-size: 2.6rem;}
+#content .scene.news > h1 {font-size: 3.85rem;}
+#content .scene.article .item > h1 {font-size: 2.3rem;}
+#content .scene.about > h1 {font-size:3.85rem;}
+#content .scene.about .about > h2 {font-size:1.85rem;}
+#content .scene.about .group > h2 {font-size:3.85rem;}
+#content .scene.competences h1 {font-size: 3rem;}
+#content .scene.competences h2.main {font-size: 1.85rem;}
+#content .scene.competences ul li h3,
+#content .scene.competences ul li p {font-size: 1.385rem;}
+

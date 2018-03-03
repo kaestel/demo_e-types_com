@@ -1,0 +1,104 @@
+
+/*seg_mobile_light_include.css*/
+
+/*s-fonts-desktop_light.css*/
+@font-face {
+	font-family: 'Nationale DemiBold';
+	src: url('/css/fonts/Nationale-DemiBold.eot');
+	src: url('/css/fonts/Nationale-DemiBold.eot?#iefix') format('embedded-opentype'),
+		 url('/css/fonts/Nationale-DemiBold.woff') format('woff'),
+		 url('/css/fonts/Nationale-DemiBold.ttf') format('truetype'),
+		 url('/css/fonts/Nationale-DemiBold.svg#f474d1189e72373340fe5bad92cb7394') format('svg');
+	font-weight: normal;
+	font-style: 400;
+}
+@font-face {
+	font-family: 'Nationale Regular';
+	src: url('/css/fonts/Nationale-Regular.eot');
+	src: url('/css/fonts/Nationale-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('/css/fonts/Nationale-Regular.woff') format('woff'),
+		 url('/css/fonts/Nationale-Regular.ttf') format('truetype'),
+		 url('/css/fonts/Nationale-Regular.svg#2322dcd60970b145ddd0fffb7e508234') format('svg');
+	font-weight: normal;
+	font-style: 400;
+}
+
+
+/*s-page.css*/
+* {font-family: Arial, Verdana, sans-serif;
+	font-size: 13px;
+	line-height: 1em;
+}
+html {height: 100%;}
+body {background: #ffffff; margin: 0; height: 100%;}
+h1, h2, h3, h4, h5, h6, p, ul, li, dl, dd, dt {padding: 0; margin: 0; color: #000000; font-size: 1em;}
+ul {list-style: none;}
+a {text-decoration: underline; cursor: pointer; }
+a:hover {text-decoration: underline;}
+a, span {font-size: inherit; font-family: inherit; color: inherit; line-height: inherit;}
+img {border: 0; display: block;}
+form, fieldset, label, input, select, textarea {padding: 0; margin: 0; font-weight: normal;}
+fieldset {border: none;}
+input, select, textarea {font-size: 14px;}
+input, textarea {outline: none;}
+h1 {font-size: 2em;}
+h2 {font-size: 1.5em; line-height: 1.3em;}
+p {line-height: 1.38em; padding: 0 0 10px;} 
+dd, 
+dt {font-size: 0.77em; font-weight: bold;}
+#page {position: relative;}
+
+/*s-content.css*/
+#page {margin:10px;}
+#footer .sharing {display: none;}
+#content {}
+#content .scene {}
+#content .scene h1 {padding:20px 0 10px 0;}
+#content .scene.front h2 {padding-bottom:6px;}
+#content .scene.front ul.news {padding-top:20px;}
+#content .scene.front ul.news li {padding-bottom:30px;}
+#content .scene.front ul.news li dl {display: none;}
+#content .scene.news h1 {padding:20px 0 10px 0;}
+#content .scene.news h2 {padding-bottom:6px;}
+#content .scene.news ul.news {padding-top:20px;}
+#content .scene.news ul.news li {padding-bottom:30px;}
+#content .scene.news ul.news li dl {display: none;}
+#content .scene.news ul.news li ul.tags {display: none;}
+#content .scene.article dl.info {display: none;}
+#content .scene.contact h1 {padding:20px 0 10px 0;}
+#content .scene.contact .vcard.company div {padding:4px 0;}
+#content .scene.contact .partners,
+#content .scene.contact .apply,
+#content .scene.contact .etypes,
+#content .scene.contact .daily,
+#content .scene.contact .group,
+#content .scene.contact .playtype {display: none;}
+#content .scene.contact div ul li div {padding:2px 0;}
+#content .scene.contact div {padding-bottom:20px;}
+#content .scene.contact div h2 {padding-bottom:20px;}
+#content .scene.contact #companyinfo dl {padding-bottom:20px;}
+#content .scene.contact #companyinfo dl dt {font-weight: bold;}
+#content .scene.contact #companyinfo dl dd {padding-bottom:6px; font-weight: normal;}
+#content .scene.contact #companyinfo dl dt,
+#content .scene.contact #companyinfo dl dd { font-size:1em; line-height: 1.3em;}
+#content .scene.competences {}
+#content .scene.competences h2 {padding-bottom:20px;}
+#content .scene.about h1 {padding-top:20px;}
+#content .scene.about h2 {padding-bottom:20px;}
+#content .scene.about .history {padding-top:20px;}
+#content .scene.about .introduction {padding-top:20px;}
+#content .scene.about .introduction .actions {display: none;}
+#content .scene.services ul {padding-top:10px;}
+#content .scene.services ul li {padding:2px 0;}
+
+
+/*s-navigation.css*/
+#header ul li {padding:4px 0;}
+#navigation {padding: 10px 0; border-top: 1px solid #000000;}
+#navigation li {display: block;}
+#navigation ul li h3, 
+#navigation ul li h3 a {padding:0; margin:0; line-height: 1em;}
+#navigation ul li .submenu {padding-bottom:10px;}
+#navigation ul li .submenu p {display: none;}
+#navigation ul li .submenu ul li {padding:4px 0;}
+

@@ -1,0 +1,109 @@
+{
+	"nodes":[
+		{
+			"proportion"		: 0.769,
+			"width"				: 54.3,
+			"class"				: "bottom",
+			"image_margin"		: "0 15px 0 0",
+			"text_margin"		: "0 15px",
+			"text_width"		: 80
+		},
+		{
+			"proportion"		: 1.6,
+			"width"				: 45.7,
+			"class"				: "bottom",
+			"image_margin"		: "0 15px 0 0",
+			"text_margin"		: "0 15px 0 0",
+			"text_width"		: 80
+		},
+
+
+		{
+			"proportion"		: 1,
+			"width"				: 37,
+			"image_margin"		: "0 0 0 15px",
+			"text_margin"		: "0 15px",
+			"text_width"		: 90
+		},
+		{
+			"proportion"		: 1,
+			"width"				: 63,
+			"image_margin"		: "0",
+			"text_margin"		: "0 15px 0 0",
+			"text_width"		: 80,
+			"offset_below_fold"	: 200
+		},
+
+
+		{
+			"proportion"		: 1,
+			"width"				: 51.8,
+			"class"				: "bottom",
+			"image_margin"		: "0 15px",
+			"text_margin"		: "0 15px",
+			"text_width"		: 80
+		},
+		{
+			"proportion"		: 1.6,
+			"width"				: 48.2,
+			"class"				: "bottom",
+			"image_margin"		: "0 15px 0 0",
+			"text_margin"		: "0 15px 0 0",
+			"text_width"		: 80,
+			"offset_below_fold"	: 120
+		},
+
+
+		{
+			"proportion"		: 1.6,
+			"width"				: 59.6,
+			"image_margin"		: "0",
+			"text_margin"		: "0 15px",
+			"text_width"		: 80,
+			"offset_below_fold"	: 300
+		},
+		{
+			"proportion"		: 0.769,
+			"width"				: 40.4,
+			"image_margin"		: "0 0 0 15px",
+			"text_margin"		: "0 15px",
+			"text_width"		: 90
+		},
+
+
+		{
+			"proportion"		: 0.769,
+			"width"				: 50.7,
+			"class"				: "bottom",
+			"image_margin"		: "0 0 0 15px",
+			"text_margin"		: "0 15px",
+			"text_width"		: 80
+		},
+		{
+			"proportion"		: 1.6,
+			"width"				: 49.3,
+			"class"				: "bottom",
+			"image_margin"		: "0 15px 0 0",
+			"text_margin"		: "0 15px",
+			"text_width"		: 80,
+			"offset_below_fold"	: 100
+		},
+
+
+		{
+			"proportion"		: 1,
+			"width"				: 40.4,
+			"image_margin"		: "0 15px 0 0",
+			"text_margin"		: "0 15px 0 0",
+			"offset_below_fold"	: 200,
+			"text_width"		: 90
+		},
+		{
+			"proportion"		: 1,
+			"width"				: 59.6,
+			"image_margin"		: "0",
+			"text_margin"		: "0 15px 0 0",
+			"text_width"		: 80
+		}
+	]
+}

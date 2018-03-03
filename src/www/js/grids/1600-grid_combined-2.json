@@ -1,0 +1,107 @@
+{
+	"nodes":[
+		{
+			"proportion"		: 1,
+			"width"				: 29.7,
+			"class"				: "bottom",
+			"image_margin"		: "0 15px 0 0",
+			"text_margin"		: "0 15px",
+			"text_width"		: 70
+		},
+		{
+			"proportion"		: 1.6,
+			"width"				: 38.8,
+			"class"				: "bottom",
+			"image_margin"		: "0 182px 0 0",
+			"text_margin"		: "0 182px 0 0",
+			"text_width"		: 50
+		},
+		{
+
+			"proportion"		: 0.769,
+			"width"				: 31.5,
+			"class"				: "bottom",
+			"image_margin"		: "0 15px 0 0",
+			"text_margin"		: "0 15px 0 0",
+			"text_width"		: 70
+		},
+
+
+		{
+			"proportion"		: 1.6,
+			"width"				: 44,
+			"image_margin"		: "0 0 0 15px",
+			"text_margin"		: "0 15px",
+			"text_width"		: 60,
+			"offset_below_fold"	: 200
+		},
+		{
+			"proportion"		: 1.6,
+			"width"				: 29.8,
+			"image_margin"		: "0 0 0 82px",
+			"text_margin"		: "0 15px 0 82px",
+			"text_width"		: 70,
+			"offset_below_fold"	: 120
+		},
+		{
+			"proportion"		: 0.769,
+			"width"				: 26.2,
+			"image_margin"		: "0",
+			"text_margin"		: "0 15px 0 0",
+			"text_width"		: 80,
+			"offset_below_fold"	: 0
+		},
+
+
+		{
+			"proportion"		: 1,
+			"width"				: 30.4,
+			"class"				: "bottom",
+			"image_margin"		: "0 164px 0 0",
+			"text_margin"		: "0 179px 0 15px",
+			"text_width"		: 80,
+			"offset_below_fold"	: 200
+		},
+		{
+			"proportion"		: 1.6,
+			"width"				: 44.1,
+			"class"				: "bottom",
+			"image_margin"		: "0 15px 0 0",
+			"text_margin"		: "0 15px 0 0",
+			"text_width"		: 50
+		},
+		{
+			"proportion"		: 1.6,
+			"width"				: 25.4,
+			"class"				: "bottom",
+			"image_margin"		: "0 15px 0 0",
+			"text_margin"		: "0 15px 0 0",
+			"text_width"		: 90,
+			"offset_below_fold"	: 120
+		},
+
+
+		{
+			"proportion"		: 1.6,
+			"width"				: 25.6,
+			"image_margin"		: "0 0 0 15px",
+			"text_margin"		: "0 15px",
+			"text_width"		: 80,
+			"offset_below_fold"	: 100
+		},
+		{
+			"proportion"		: 0.769,
+			"width"				: 36.6,
+			"image_margin"		: "0",
+			"text_margin"		: "0 15px 0 0",
+			"text_width"		: 60
+		},
+		{
+			"proportion"		: 1,
+			"width"				: 37.8,
+			"image_margin"		: "0 196px 0 0",
+			"text_margin"		: "0 196px 0 15px",
+			"offset_below_fold"	: 300
+		}
+	]
+}
