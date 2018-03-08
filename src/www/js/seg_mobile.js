@@ -473,7 +473,7 @@ Util.Objects["front"] = new function() {
 					node.insertBefore(node._info, node.firstChild);
 				}
 				node.img = document.createElement("img");
-				node.img.src = "/images/"+u.cv(node, "item_id")+"/landscape/" + node.offsetWidth + "x."+u.cv(node, "i_la");
+				node.img.src = "/images/"+u.cv(node, "item_id")+"/landscape/320x."+u.cv(node, "i_la");
 				node.insertBefore(node.img, node.firstChild);
 			}
 		}
@@ -486,7 +486,7 @@ Util.Objects["article"] = new function() {
 	this.init = function(scene) {
 		var node = scene.getElementsByTagName("div")[0];
 		node.img = document.createElement("img");
-		node.img.src = "/images/"+u.cv(node, "item_id")+"/landscape/" + node.offsetWidth + "x."+u.cv(node, "i_la");
+		node.img.src = "/images/"+u.cv(node, "item_id")+"/landscape/320x."+u.cv(node, "i_la");
 		node.insertBefore(node.img, node.firstChild);
 		node.unit = node.getElementsByTagName("dd")[0];
 		node.unit.innerHTML += "&nbsp;&nbsp;/&nbsp;&nbsp;";
@@ -510,7 +510,7 @@ Util.Objects["news"] = new function() {
 					node.insertBefore(node._info, node.firstChild);
 				}
 				node.img = document.createElement("img");
-				node.img.src = "/images/"+u.cv(node, "item_id")+"/landscape/" + node.offsetWidth + "x."+u.cv(node, "i_la");
+				node.img.src = "/images/"+u.cv(node, "item_id")+"/landscape/320x."+u.cv(node, "i_la");
 				node.insertBefore(node.img, node.firstChild);
 			}
 		}
